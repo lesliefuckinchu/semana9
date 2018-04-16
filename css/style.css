@@ -1,0 +1,81 @@
+
+
+.wrapper {
+  display: flex;
+}
+
+.wrapper div {
+  flex: 1;
+  border:2px solid green;
+  margin: 50px;
+  padding: 50px;
+  
+}
+
+.wrapper div img {
+  border-radius: 50%;
+  max-width: 150px;
+  max-height: 150px;
+}
+
+
+.header h1 {
+	font-family: 'Helvetica';
+	font-size: 67px;
+	font-weight: bold;
+	letter-spacing: 7px;
+	text-align: center;
+	margin: auto;
+	margin-top: 70px;
+	margin-bottom: 5px;
+	width: 100%
+}
+
+.title {
+	font-family: 'Helvetica';
+	font-size: 15px;
+	color: black;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	display: block;
+	text-align: center;
+	vertical-align: top;
+}
+
+
+.body {
+	font-family: 'Helvetica';
+	font-size: 15px;
+	color: black;
+	font-weight: lighter;
+	display: block;
+	text-align: center;
+	vertical-align: top;
+	
+}
+
+a {
+	text-decoration: none;
+}
+/* unvisited link */
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: grey;
+}
+
+/* mouse over link */
+a:hover {
+    color: green;
+}
+
+/* selected link */
+a:active {
+    color: green;
+}
+	
+
